@@ -5,7 +5,7 @@
 
 {# Layout Adjustments #}
 {% set print_layout = parameters.print_layout == "true" ? true : false %} {# Improves receipt layout for large display/paper size (A4/Letter/Email) #}
-{% set chrome_right_margin_fix = false %}           {# Fixes a potential issue where the right side of receipts are cut off in Chrome #}
+{% set chrome_right_margin_fix = true %}           {# Fixes a potential issue where the right side of receipts are cut off in Chrome #}
 {% set firefox_margin_fix = false %}                {# Fixes issue with margins cutting off when printing on a letter printer on a Mac #}
 
 {# Sale #}
